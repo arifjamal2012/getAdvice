@@ -11,7 +11,6 @@ function App() {
     const data = await res.json();
     setLoading(false);
     setAdvice(data.slip.advice);
-    setCount(c => c + 1);
   }
 
   return (
